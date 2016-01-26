@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebControlsHomeWork", "WebC
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MasterPagesHomework", "MasterPagesHomework\MasterPagesHomework.csproj", "{60C1AC8B-78B8-430D-9650-EA4E160656F2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MasterPagesCountriesHomework", "MasterPagesCountriesHomework\MasterPagesCountriesHomework.csproj", "{B17962F6-3B5F-46E8-8806-E72F7A302E34}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{60C1AC8B-78B8-430D-9650-EA4E160656F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{60C1AC8B-78B8-430D-9650-EA4E160656F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{60C1AC8B-78B8-430D-9650-EA4E160656F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B17962F6-3B5F-46E8-8806-E72F7A302E34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B17962F6-3B5F-46E8-8806-E72F7A302E34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B17962F6-3B5F-46E8-8806-E72F7A302E34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B17962F6-3B5F-46E8-8806-E72F7A302E34}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
