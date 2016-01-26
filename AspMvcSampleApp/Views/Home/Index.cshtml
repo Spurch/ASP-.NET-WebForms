@@ -1,0 +1,26 @@
+﻿@using AspMvcSampleApp.Models
+@model AspMvcSampleApp.Models.CalculationModel
+@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron">
+	<h2>Let' make some calculations!</h2>
+</div>
+<div class="row">
+	@using(Html.BeginForm("Index", "Home", FormMethod.Post))
+	{
+		@Html.LabelFor(model => model.FirstValue)
+		@Html.TextBoxFor(model => model.FirstValue);
+		<br />
+		@Html.LabelFor(model => model.SecondValue)
+		@Html.TextBoxFor(model => model.SecondValue);
+		<br />
+		<input type="submit" value="Calculate!" />
+	}
+</div>
+<div>
+	<br />
+	@Html.LabelFor(model => model.ResultValue)
+	@Model.ResultValue
+</div>
